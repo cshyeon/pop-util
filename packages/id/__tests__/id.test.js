@@ -22,5 +22,11 @@ describe('id', () => {
 
         expect(splitByGroup).toHaveLength(4);
         expect(splitByGroup[0]).toBe(prefix);
+
+        const uid2 = id.UID({prefix});
+        const splitByGroup2 = uid2.split('-');
+        const hashedPrefix = splitByGroup2[0];
+
+        expect(hashedPrefix).not.toBe(prefix);
     });
 });

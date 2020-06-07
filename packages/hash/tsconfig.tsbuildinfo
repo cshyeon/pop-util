@@ -137,8 +137,8 @@
         "affectsGlobalScope": true
       },
       "./src/hash.ts": {
-        "version": "3af50d9fc1e52a5dcbf328b3f12e1f46f07bbf68e00cdb102317d66ca0bf2f53",
-        "signature": "30e41ad7db719eb0112923a378c368a6e59f730a8d2fcf4cf208d964774324d4",
+        "version": "bc6c5a7591c07c7f2b60c6f0c4fd9d249f0f1f048f1a80b5a03d4e3684b98bf6",
+        "signature": "bdee521fbef392b83e8ce838279b1f279a3ec12bc4d6620a4bd9f75256a51f77",
         "affectsGlobalScope": false
       },
       "../../node_modules/@babel/types/lib/index.d.ts": {

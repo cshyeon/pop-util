@@ -4,7 +4,16 @@ export function shortID(): String {
   return Math.random().toString(36).substr(2);
 }
 
-export function UID({prefix = undefined, prefixHash = true, groupCount = 4} = {}): String {
+export function UID({
+    prefix,
+    prefixHash = true,
+    groupCount = 4
+  }: 
+  {
+    prefix?: string,
+    prefixHash?: boolean,
+    groupCount?: number
+  } = {}): string {
   const groupIds = [];
 
   const prefixId = prefix 
@@ -14,7 +23,7 @@ export function UID({prefix = undefined, prefixHash = true, groupCount = 4} = {}
     groupIds.push(prefixId);
   }
 
-  const groupIdsCount = prefix ? groupCount - 1 : groupCount;
+  const groupIdsCount: number = prefix ? groupCount - 1 : groupCount;
   for(let i = 0; i < groupIdsCount; i++) {
     groupIds.push(shortID());
   }
