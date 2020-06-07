@@ -1,6 +1,6 @@
 {
   "name": "@pop-util/id",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "> TODO: description",
   "author": "cshyeon <chungsunhyeon@gmail.com>",
   "homepage": "",
@@ -18,7 +18,7 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@pop-util/hash": "*"
+    "@pop-util/hash": "^0.0.1-alpha.0"
   },
   "publishConfig": {
     "access": "public"
