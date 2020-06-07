@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "scripts": {
+    "publish": "lerna run tsc && lerna publish",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.5",
+    "jest": "^26.0.1",
+    "lerna": "^3.21.0",
+    "typescript": "^3.9.3"
+  }
+}
