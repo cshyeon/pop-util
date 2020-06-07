@@ -4,7 +4,7 @@ export function shortID(): String {
   return Math.random().toString(36).substr(2);
 }
 
-export function UID({prefix, prefixHash, groupCount} = {prefix: undefined, prefixHash: true, groupCount: 4}): String {
+export function UID({prefix = undefined, prefixHash = true, groupCount = 4} = {}): String {
   const groupIds = [];
 
   const prefixId = prefix 

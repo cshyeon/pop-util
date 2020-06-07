@@ -1,7 +1,8 @@
 {
   "name": "root",
   "scripts": {
-    "publish": "lerna run tsc && lerna publish",
+    "prepublish": "lerna run tsc && npm run test",
+    "publish": "lerna publish",
     "test": "jest"
   },
   "devDependencies": {
