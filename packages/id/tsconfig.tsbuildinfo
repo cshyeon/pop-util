@@ -137,13 +137,13 @@
         "affectsGlobalScope": true
       },
       "../hash/lib/hash.d.ts": {
-        "version": "bdee521fbef392b83e8ce838279b1f279a3ec12bc4d6620a4bd9f75256a51f77",
-        "signature": "bdee521fbef392b83e8ce838279b1f279a3ec12bc4d6620a4bd9f75256a51f77",
+        "version": "d67a4be979109c563e5284ea610ebde8734361f9c587506331dd45dc1b6ca7b1",
+        "signature": "d67a4be979109c563e5284ea610ebde8734361f9c587506331dd45dc1b6ca7b1",
         "affectsGlobalScope": false
       },
       "./src/id.ts": {
-        "version": "3e6065d5f79f52a8ef0574d99ef930acdcf9d8871167e9ae03d0381d310d91aa",
-        "signature": "ce65846508057b35fd3381620cbbd47dfa294d2c533b6f56c065ca0220694088",
+        "version": "a3ac54124a046cd1ea0f7b1a90fd01cac615d8c599a6bbadf601d1b071a6cfc7",
+        "signature": "243407a23484cea789378fc03a33a220b84ba79db610284f0da6451f55093695",
         "affectsGlobalScope": false
       },
       "../../node_modules/@babel/types/lib/index.d.ts": {
@@ -179,6 +179,11 @@
       "../../node_modules/@types/color-name/index.d.ts": {
         "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
         "signature": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/eslint-visitor-keys/index.d.ts": {
+        "version": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
+        "signature": "725d9be2fd48440256f4deb00649adffdbc5ecd282b09e89d4e200663792c34c",
         "affectsGlobalScope": false
       },
       "../../node_modules/@types/events/index.d.ts": {
@@ -516,6 +521,16 @@
         "signature": "d3002f620eab4bf6476c9da5c0efb2041d46f7df8b3032a5631bd206abef2c75",
         "affectsGlobalScope": true
       },
+      "../../node_modules/@types/json-schema/index.d.ts": {
+        "version": "ecdf947a5111318568ba99f2a87b8498382d8871207f1bc6271ff3b9536a2448",
+        "signature": "ecdf947a5111318568ba99f2a87b8498382d8871207f1bc6271ff3b9536a2448",
+        "affectsGlobalScope": false
+      },
+      "../../node_modules/@types/json5/index.d.ts": {
+        "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
+        "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
+        "affectsGlobalScope": false
+      },
       "../../node_modules/@types/minimist/index.d.ts": {
         "version": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
         "signature": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
@@ -619,6 +634,13 @@
         "../../node_modules/@types/node/util.d.ts"
       ],
       "../../node_modules/@types/color-name/index.d.ts": [
+        "../../node_modules/@types/graceful-fs/index.d.ts",
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../node_modules/@types/node/util.d.ts"
+      ],
+      "../../node_modules/@types/eslint-visitor-keys/index.d.ts": [
         "../../node_modules/@types/graceful-fs/index.d.ts",
         "../../node_modules/@types/node/fs.d.ts",
         "../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -743,6 +765,20 @@
       "../../node_modules/@types/jest/ts3.2/index.d.ts": [
         "../../node_modules/@types/graceful-fs/index.d.ts",
         "../../node_modules/@types/jest/index.d.ts",
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../node_modules/@types/node/util.d.ts"
+      ],
+      "../../node_modules/@types/json-schema/index.d.ts": [
+        "../../node_modules/@types/graceful-fs/index.d.ts",
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../node_modules/@types/node/util.d.ts"
+      ],
+      "../../node_modules/@types/json5/index.d.ts": [
+        "../../node_modules/@types/graceful-fs/index.d.ts",
         "../../node_modules/@types/node/fs.d.ts",
         "../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts",
@@ -1518,6 +1554,13 @@
         "../../node_modules/@types/node/ts3.2/util.d.ts",
         "../../node_modules/@types/node/util.d.ts"
       ],
+      "../../node_modules/@types/eslint-visitor-keys/index.d.ts": [
+        "../../node_modules/@types/graceful-fs/index.d.ts",
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../node_modules/@types/node/util.d.ts"
+      ],
       "../../node_modules/@types/events/index.d.ts": [
         "../../node_modules/@types/graceful-fs/index.d.ts",
         "../../node_modules/@types/node/fs.d.ts",
@@ -1636,6 +1679,20 @@
       "../../node_modules/@types/jest/ts3.2/index.d.ts": [
         "../../node_modules/@types/graceful-fs/index.d.ts",
         "../../node_modules/@types/jest/index.d.ts",
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../node_modules/@types/node/util.d.ts"
+      ],
+      "../../node_modules/@types/json-schema/index.d.ts": [
+        "../../node_modules/@types/graceful-fs/index.d.ts",
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../node_modules/@types/node/util.d.ts"
+      ],
+      "../../node_modules/@types/json5/index.d.ts": [
+        "../../node_modules/@types/graceful-fs/index.d.ts",
         "../../node_modules/@types/node/fs.d.ts",
         "../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts",
@@ -2351,6 +2408,7 @@
       "../../node_modules/@types/babel__template/index.d.ts",
       "../../node_modules/@types/babel__traverse/index.d.ts",
       "../../node_modules/@types/color-name/index.d.ts",
+      "../../node_modules/@types/eslint-visitor-keys/index.d.ts",
       "../../node_modules/@types/events/index.d.ts",
       "../../node_modules/@types/glob/index.d.ts",
       "../../node_modules/@types/graceful-fs/index.d.ts",
@@ -2366,6 +2424,8 @@
       "../../node_modules/@types/jest/node_modules/pretty-format/build/index.d.ts",
       "../../node_modules/@types/jest/node_modules/pretty-format/build/types.d.ts",
       "../../node_modules/@types/jest/ts3.2/index.d.ts",
+      "../../node_modules/@types/json-schema/index.d.ts",
+      "../../node_modules/@types/json5/index.d.ts",
       "../../node_modules/@types/minimatch/index.d.ts",
       "../../node_modules/@types/minimist/index.d.ts",
       "../../node_modules/@types/node/async_hooks.d.ts",
